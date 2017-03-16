@@ -1,0 +1,23 @@
+{
+    "name": "functioneelwit/laravel-feedback-company",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mattijs Wit",
+            "email": "mattijs@functioneelwit.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Functioneelwit\\LaravelFeedbackCompany\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
