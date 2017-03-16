@@ -1,6 +1,7 @@
 {
     "name": "functioneelwit/laravel-feedback-company",
-    "description": "",
+    "description": "A simple service for calling The Feedback Company API",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mattijs Wit",
