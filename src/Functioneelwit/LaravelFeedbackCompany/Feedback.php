@@ -74,10 +74,10 @@ class Feedback {
 		]);
 		
 		$result = curl_exec($curl);
-
-		var_dump($result);
-		
+			
 		curl_close($curl);
+		
+		return $result;
 		
     }
 
