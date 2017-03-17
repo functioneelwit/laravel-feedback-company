@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Config;
  
 class Feedback {
  
-    public function send($email){
+    public function push($email){
 
     	if(! Config::has('laravel-feedback-company::connector'))
     	{
